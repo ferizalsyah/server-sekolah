@@ -21,6 +21,11 @@ class Nilai extends CI_Controller
         // $where                 = array('nama' => $nama);
         // $isi['siswa']        = $this->db->query("SELECT * FROM tb_siswa WHERE nama=$nama");
         $this->load->view('admin/index', $isi);
+        // $this->load->library('Pdfgenerator');
+        // $this->Pdfgenerator->setPaper('A4', 'potrait');
+        // $this->Pdfgenerator->filename = "laporan-data-nilai.pdf";
+        // $this->pdf->load_view('laporan_siswa', $data);
+
     }
 
     public function tambah_siswa()

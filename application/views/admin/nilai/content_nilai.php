@@ -53,7 +53,7 @@
                         ?>
              </table>
              <div>
-                 <h3><a href="<?php echo base_url(); ?>admin/Report/pdf_kembali">printpdf</a></h3>
+                 <h3><a href="<?php echo base_url(); ?>admin/laporan/laporan_nilai">printpdf</a></h3>
              </div>
 
          </div>
